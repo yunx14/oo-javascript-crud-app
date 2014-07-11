@@ -1,0 +1,27 @@
+body {
+	
+}
+
+.person{
+	width: 100px;
+	height: 100px;
+	border: 1px solid;
+	border-color: blue;
+	text-align: center;
+	margin:10px;
+	float:left;
+}
+
+.person input {
+	width:40px;
+	border: none;
+	text-align: center;
+}
+
+.person.edit {
+	border-color:red;
+}
+
+.person.edit input {
+	border:1px solid #888;
+}
